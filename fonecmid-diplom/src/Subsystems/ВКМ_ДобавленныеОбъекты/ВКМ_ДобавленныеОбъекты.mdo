@@ -10,4 +10,5 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.Setting</picture>
   </picture>
+  <content>Catalog.ДоговорыКонтрагентов</content>
 </mdclass:Subsystem>
