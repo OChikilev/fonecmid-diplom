@@ -11,4 +11,6 @@
     <picture>CommonPicture.ИспользоватьПользовательскийМакет</picture>
   </picture>
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
+  <content>Role.ОбслуживаниеКлиента</content>
+  <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
 </mdclass:Subsystem>
