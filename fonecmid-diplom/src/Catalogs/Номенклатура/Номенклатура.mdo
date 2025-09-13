@@ -113,6 +113,15 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="8c2bb81e-a9df-4673-9611-a9ab4375fa65">
+      <name>ВыполненныеКлиентуРаботы</name>
+      <description>Выполненные работы</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="8db01813-8393-4e32-bb13-31d873e74aed">
