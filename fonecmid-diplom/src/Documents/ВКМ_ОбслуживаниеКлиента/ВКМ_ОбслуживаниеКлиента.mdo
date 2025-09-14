@@ -202,10 +202,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6383a1eb-48f6-4205-bdd6-9d196a38a2ce">
-      <name>ФактическиПотраченоЧасов</name>
+      <name>ПлановоеКолЧасов</name>
       <synonym>
         <key>ru</key>
-        <value>Фактически потрачено часов</value>
+        <value>Плановое кол часов</value>
       </synonym>
       <type>
         <types>Number</types>
@@ -238,4 +238,11 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="23fcc92c-821b-4652-84ed-24596a96f4ef">
+    <name>ПФ_MXL_АктУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт-услуг</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

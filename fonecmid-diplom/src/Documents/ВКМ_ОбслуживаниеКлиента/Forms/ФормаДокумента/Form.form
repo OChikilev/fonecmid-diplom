@@ -508,7 +508,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВыполненныеРаботы.ФактическиПотраченоЧасов</segments>
+        <segments>Объект.ВыполненныеРаботы.ПлановоеКолЧасов</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВыполненныеРаботыФактическиПотраченоЧасовРасширеннаяПодсказка</name>
@@ -743,12 +743,12 @@
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
     <handlers>
-      <event>OnReadAtServer</event>
-      <name>ПриЧтенииНаСервере</name>
-    </handlers>
-    <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
     </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
