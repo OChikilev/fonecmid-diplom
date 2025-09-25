@@ -1389,6 +1389,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.НовыйПароль</name>
 		<right>
 			<name>View</name>
