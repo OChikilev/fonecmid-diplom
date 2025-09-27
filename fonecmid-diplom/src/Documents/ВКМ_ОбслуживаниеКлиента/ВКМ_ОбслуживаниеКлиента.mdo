@@ -69,7 +69,7 @@
       <value>Специалист</value>
     </synonym>
     <type>
-      <types>CatalogRef.ГруппыПользователей</types>
+      <types>CatalogRef.ВКМ_ФизическиеЛица</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

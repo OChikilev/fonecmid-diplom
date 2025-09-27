@@ -12,4 +12,5 @@
   </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
 </mdclass:Subsystem>
