@@ -11,4 +11,5 @@
     <picture>StdPicture.Setting</picture>
   </picture>
   <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
 </mdclass:Subsystem>

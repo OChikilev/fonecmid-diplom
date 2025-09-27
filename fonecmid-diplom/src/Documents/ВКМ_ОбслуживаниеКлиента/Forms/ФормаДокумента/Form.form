@@ -588,6 +588,7 @@
       <autoFill>true</autoFill>
     </autoCommandBar>
     <searchStringAddition>
+      <enabled>false</enabled>
       <name>ВыполненныеРаботыСтрокаПоиска</name>
       <id>35</id>
       <extendedTooltip>
@@ -611,6 +612,7 @@
       </extInfo>
     </searchStringAddition>
     <viewStatusAddition>
+      <enabled>false</enabled>
       <name>ВыполненныеРаботыСостояниеПросмотра</name>
       <id>38</id>
       <extendedTooltip>
@@ -635,6 +637,7 @@
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
+      <enabled>false</enabled>
       <name>ВыполненныеРаботыУправлениеПоиском</name>
       <id>41</id>
       <extendedTooltip>

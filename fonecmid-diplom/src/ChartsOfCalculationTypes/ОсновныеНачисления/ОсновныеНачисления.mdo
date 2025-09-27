@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="234460ec-6ad4-431c-a001-8cda4cd051d0">
+  <producedTypes>
+    <objectType typeId="faff8729-b5f3-45a2-859b-f5355e173edf" valueTypeId="0bd66f03-387c-42e4-9c38-920f091db389"/>
+    <refType typeId="e08e610b-d622-421d-91ad-419732071c57" valueTypeId="c1c73394-961e-4099-aba7-f9fbe559ab2a"/>
+    <selectionType typeId="00abd355-e19b-4a08-a273-0c81c9ad7736" valueTypeId="6f48e572-3c4c-4c48-b81f-c617b3f7dacf"/>
+    <listType typeId="74831d50-ad4e-427d-8f2f-39c99e26a867" valueTypeId="dc55e059-a98f-468a-9a15-b6847b1c9278"/>
+    <managerType typeId="31114dd0-bb70-472e-aa3b-6ac536966ddb" valueTypeId="2c831fc7-3616-4455-923f-e882911a52ba"/>
+    <displacingCalculationTypesType typeId="1ee950f6-f3ae-44a1-ad72-362968706c22" valueTypeId="854ac41b-7f69-4e19-b92c-1f5dbb59e005"/>
+    <displacingCalculationTypesRowType typeId="93a3023e-9d2d-4ee3-83d6-5a6dbea59611" valueTypeId="c3830d98-7280-4eed-ae9b-a9b3d8f7df01"/>
+    <baseCalculationTypesType typeId="11eeafcd-55dc-408d-9fee-5f6ecc93c928" valueTypeId="d98e22c8-64be-4e8d-a78f-1adeb7325068"/>
+    <baseCalculationTypesRowType typeId="aedf816d-b4ab-4bc4-bbb6-34810f31be4c" valueTypeId="eb573008-50dd-4a23-90d7-6ed3bc90980b"/>
+    <leadingCalculationTypesType typeId="69dcbb5c-d317-4170-8d49-577dfdaff460" valueTypeId="4e0a983e-4f85-43f3-b3ab-89e7a0b38dc0"/>
+    <leadingCalculationTypesRowType typeId="d2c581e3-1c68-499a-894f-edf1e6700c64" valueTypeId="0c15498f-91f8-4867-a768-0fc1093a896e"/>
+  </producedTypes>
+  <name>ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>9</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <actionPeriodUse>true</actionPeriodUse>
+</mdclass:ChartOfCalculationTypes>
