@@ -23,11 +23,21 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ВКМ_НачислениеФиксированнойПремии.Form.ФормаДокумента</defaultObjectForm>
   <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
   <registerRecords>CalculationRegister.Удержания</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="ca7a6089-0078-4b10-a038-d049291bb164">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <tabularSections uuid="747e7f41-00d0-4aea-bdcc-ab62047e95f9">
     <producedTypes>
       <objectType typeId="1aa5daa9-ef7d-479a-a44a-3b05910c66a0" valueTypeId="a3d062f1-b1b4-428c-ab1c-d5f39716f1fa"/>

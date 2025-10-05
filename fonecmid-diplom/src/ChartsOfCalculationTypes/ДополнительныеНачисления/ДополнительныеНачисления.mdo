@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCalculationTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc558964-50ff-4137-ad6b-09a26ad14ce9">
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc558964-50ff-4137-ad6b-09a26ad14ce9">
   <producedTypes>
     <objectType typeId="9e848f58-c0c4-4c30-bbe0-9aca939f8d27" valueTypeId="71b24207-f37f-42e9-a152-5b73d0034858"/>
     <refType typeId="e9cf1b1f-5fa1-499f-8d1a-033fcd87e218" valueTypeId="b5ede4a2-64b4-4a0e-b108-ba6a70d1b4a6"/>
@@ -32,4 +32,13 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <predefined>
+    <items id="d7092b01-0d29-4437-ba68-e9a561dc67ab">
+      <name>Премия</name>
+      <description>Премия</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+  </predefined>
 </mdclass:ChartOfCalculationTypes>
