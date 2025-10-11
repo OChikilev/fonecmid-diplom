@@ -44,11 +44,35 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a0691d54-cfd2-4db2-adb0-a95f83e29bfc">
+    <name>АдресВХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес в хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="25a81726-0e0f-4da4-8763-9dbb9a510829">
     <name>ФормаДокумента</name>
     <synonym>
       <key>ru</key>
       <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d297db4-8f35-4257-b3ce-1bf4bc119c00">
+    <name>ФормаАнализаГрафиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ графиков</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -63,6 +87,20 @@
       <key>ru</key>
       <value>Отпуска сотрудников</value>
     </synonym>
+    <attributes uuid="c26f36b5-521f-451f-af3f-8beea2aeeea3">
+      <name>Более28</name>
+      <synonym>
+        <key>ru</key>
+        <value>Более28</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
     <attributes uuid="c73675d4-6e88-4dc6-8ff9-1834e44b1f23">
       <name>Сотрудник</name>
       <synonym>

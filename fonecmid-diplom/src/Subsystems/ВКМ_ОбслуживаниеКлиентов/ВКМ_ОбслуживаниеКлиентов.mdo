@@ -26,4 +26,5 @@
   <content>Catalog.ВКМ_ГрафикиРабот</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
+  <content>Report.ВКМ_ВыработкаСпециалистов</content>
 </mdclass:Subsystem>
