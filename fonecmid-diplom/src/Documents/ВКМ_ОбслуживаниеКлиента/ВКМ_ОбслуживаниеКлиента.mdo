@@ -18,6 +18,10 @@
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Обслуживание клиента</value>
+  </objectPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -206,10 +210,10 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="6383a1eb-48f6-4205-bdd6-9d196a38a2ce">
-      <name>ПлановоеКолЧасов</name>
+      <name>ФактическиПотраченоЧасов</name>
       <synonym>
         <key>ru</key>
-        <value>Плановое кол часов</value>
+        <value>Фактически потрачено часов</value>
       </synonym>
       <type>
         <types>Number</types>

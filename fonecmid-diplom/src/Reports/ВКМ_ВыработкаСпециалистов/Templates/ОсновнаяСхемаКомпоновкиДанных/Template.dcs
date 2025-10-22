@@ -7,43 +7,71 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Сотрудник</dataPath>
-			<field>Сотрудник</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
+			<dataPath>ЧасовКОплате</dataPath>
+			<field>ЧасовКОплате</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Часов</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Оклад</dataPath>
-			<field>Оклад</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ПроцентОтРабот</dataPath>
+			<dataPath>Процент</dataPath>
 			<field>ПроцентОтРабот</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ЗначениеПериодДействия</dataPath>
-			<field>ЗначениеПериодДействия</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЗначениеПериодРегистрации</dataPath>
-			<field>ЗначениеПериодРегистрации</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>ЗначениеФактическийПериодДействия</dataPath>
-			<field>ЗначениеФактическийПериодДействия</field>
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОсновныеНачисленияДанныеГрафика.Сотрудник КАК Сотрудник,
-	ОсновныеНачисленияДанныеГрафика.Оклад КАК Оклад,
-	ОсновныеНачисленияДанныеГрафика.ПроцентОтРабот КАК ПроцентОтРабот,
-	ОсновныеНачисленияДанныеГрафика.ЗначениеПериодДействия КАК ЗначениеПериодДействия,
-	ОсновныеНачисленияДанныеГрафика.ЗначениеПериодРегистрации КАК ЗначениеПериодРегистрации,
-	ОсновныеНачисленияДанныеГрафика.ЗначениеФактическийПериодДействия КАК ЗначениеФактическийПериодДействия
+	ВКМ_ВыполненныеСотрудникомРаботы.Сотрудник.Представление КАК Сотрудник,
+	ВКМ_ВыполненныеСотрудникомРаботы.ЧасовКОплате КАК ЧасовКОплате,
+	ЕСТЬNULL(ВКМ_УсловияОплатыСотрудников.ПроцентОтРабот, 0) КАК ПроцентОтРабот
 ИЗ
-	РегистрРасчета.ОсновныеНачисления.ДанныеГрафика КАК ОсновныеНачисленияДанныеГрафика</query>
+	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы КАК ВКМ_ВыполненныеСотрудникомРаботы
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ВКМ_УсловияОплатыСотрудников КАК ВКМ_УсловияОплатыСотрудников
+		ПО ВКМ_ВыполненныеСотрудникомРаботы.Сотрудник = ВКМ_УсловияОплатыСотрудников.Сотрудник</query>
 	</dataSet>
+	<template>
+		<name>Макет1</name>
+		<template xmlns:dcsat="http://v8.1c.ru/8.1/data-composition-system/area-template" xsi:type="dcsat:AreaTemplate">
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell>
+					<dcsat:item xsi:type="dcsat:Field">
+						<dcsat:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выработка специалистов</v8:content>
+							</v8:item>
+						</dcsat:value>
+					</dcsat:item>
+					<dcsat:appearance>
+						<dcscor:item>
+							<dcscor:parameter>Шрифт</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:Font" faceName="Arial" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+						</dcscor:item>
+					</dcsat:appearance>
+				</dcsat:tableCell>
+			</dcsat:item>
+			<dcsat:item xsi:type="dcsat:TableRow">
+				<dcsat:tableCell/>
+			</dcsat:item>
+		</template>
+	</template>
+	<groupTemplate>
+		<groupField>Сотрудник.Наименование</groupField>
+		<groupName>Заголовок</groupName>
+		<templateType>Header</templateType>
+		<template>Макет1</template>
+	</groupTemplate>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
@@ -53,28 +81,34 @@
 					<dcsset:field>Сотрудник</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЗначениеПериодДействия</dcsset:field>
+					<dcsset:field>Процент</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЗначениеПериодРегистрации</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ЗначениеФактическийПериодДействия</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Оклад</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ПроцентОтРабот</dcsset:field>
+					<dcsset:field>ЧасовКОплате</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>Заголовок</dcsset:name>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 				</dcsset:order>
 				<dcsset:selection>
 					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВариантИспользованияГруппировки</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionGroupUseVariant">AdditionalInformation</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

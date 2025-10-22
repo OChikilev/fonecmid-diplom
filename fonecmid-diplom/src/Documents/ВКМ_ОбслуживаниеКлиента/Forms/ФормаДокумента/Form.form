@@ -508,7 +508,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ВыполненныеРаботы.ПлановоеКолЧасов</segments>
+        <segments>Объект.ВыполненныеРаботы.ФактическиПотраченоЧасов</segments>
       </dataPath>
       <extendedTooltip>
         <name>ВыполненныеРаботыФактическиПотраченоЧасовРасширеннаяПодсказка</name>
