@@ -260,26 +260,6 @@
 	<object>
 		<name>InformationRegister.НаличиеФайлов</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -1010,26 +990,6 @@
 	<object>
 		<name>InformationRegister.НомераОтсканированныхФайлов</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -1068,26 +1028,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НеудаленныеОбъекты</name>
-		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
@@ -1761,26 +1701,6 @@
 	<object>
 		<name>InformationRegister.НаборыЗначенийДоступа</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -2098,26 +2018,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаКДанным</name>
-		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
@@ -2694,26 +2594,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиСинхронизацииФайлов</name>
-		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
@@ -6336,22 +6216,6 @@
 	<object>
 		<name>InformationRegister.НазначениеДополнительныхОбработок</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>TotalsControl</name>
 			<value>false</value>
 		</right>
@@ -7718,26 +7582,6 @@
 	<object>
 		<name>InformationRegister.НастройкиПравОбъектов</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
 		</right>
@@ -8443,26 +8287,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НастройкиКомандПечати</name>
-		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>TotalsControl</name>
-			<value>false</value>
-		</right>
 		<right>
 			<name>ReadDataHistory</name>
 			<value>false</value>
