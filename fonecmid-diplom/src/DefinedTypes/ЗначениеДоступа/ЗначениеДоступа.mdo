@@ -21,6 +21,7 @@
     <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     <types>CatalogRef.Пользователи</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogRef.ВКМ_ФизическиеЛица</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

@@ -12,6 +12,7 @@
     <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
     <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
     <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
+    <types>CatalogObject.ВКМ_ФизическиеЛица</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>
