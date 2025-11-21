@@ -39,20 +39,29 @@
   <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
-    <items id="f0b45d09-00ef-4fec-9a48-d31a8f26dc22">
-      <name>Штраф</name>
-      <description>Штраф</description>
-      <code xsi:type="core:StringValue">
-        <value>1</value>
-      </code>
-    </items>
     <items id="ee0c937b-f2b8-4412-9fc1-3801482ecdb7">
       <name>НДФЛ</name>
       <description>НДФЛ</description>
       <code xsi:type="core:StringValue">
         <value>2</value>
       </code>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ДополнительныеНачисления.Премия</base>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.Отпуск</base>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</leading>
+      <leading>ChartOfCalculationTypes.ОсновныеНачисления.Отпуск</leading>
+      <leading>ChartOfCalculationTypes.ДополнительныеНачисления.Премия</leading>
+    </items>
+    <items id="f0b45d09-00ef-4fec-9a48-d31a8f26dc22">
+      <name>Штраф</name>
+      <description>Штраф</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <base>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ДополнительныеНачисления.Премия</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

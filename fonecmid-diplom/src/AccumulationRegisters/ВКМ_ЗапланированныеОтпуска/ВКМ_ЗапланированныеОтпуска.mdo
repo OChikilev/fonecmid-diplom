@@ -60,6 +60,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
   </dimensions>
   <dimensions uuid="fb9ba081-345c-4ff1-9e44-671a90b8d450">
     <name>Год</name>

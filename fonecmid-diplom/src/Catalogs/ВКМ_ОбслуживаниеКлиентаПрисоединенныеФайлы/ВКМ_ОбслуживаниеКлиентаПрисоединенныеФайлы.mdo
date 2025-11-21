@@ -114,6 +114,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="7813453f-0b75-4266-911b-5c71cd586ecc">
     <name>Автор</name>
     <synonym>
@@ -866,4 +867,13 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="10190bb1-1666-466b-81b7-6b9b0210d697">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

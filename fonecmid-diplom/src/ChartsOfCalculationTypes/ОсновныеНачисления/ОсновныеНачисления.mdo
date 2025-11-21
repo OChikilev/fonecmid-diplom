@@ -25,6 +25,10 @@
   <createOnInput>DontUse</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </objectPresentation>
   <codeLength>9</codeLength>
   <descriptionLength>40</descriptionLength>
   <codeType>String</codeType>
@@ -43,6 +47,15 @@
       <code xsi:type="core:StringValue">
         <value>1</value>
       </code>
+      <actionPeriodIsBase>true</actionPeriodIsBase>
+    </items>
+    <items id="5b0e13ec-6c94-4850-b863-78f5d82108ed">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ОсновныеНачисления.Оклад</displaced>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>
