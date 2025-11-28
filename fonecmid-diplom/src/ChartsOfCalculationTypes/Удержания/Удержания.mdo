@@ -39,7 +39,6 @@
   <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</baseCalculationTypes>
   <baseCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</baseCalculationTypes>
-  <actionPeriodUse>true</actionPeriodUse>
   <predefined>
     <items id="ee0c937b-f2b8-4412-9fc1-3801482ecdb7">
       <name>НДФЛ</name>
