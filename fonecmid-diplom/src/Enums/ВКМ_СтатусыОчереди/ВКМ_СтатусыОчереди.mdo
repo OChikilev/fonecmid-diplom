@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e457671-34c1-4ccb-a110-d076365917e2">
+  <producedTypes>
+    <refType typeId="b8849361-f736-40ff-986b-2b12c7e57412" valueTypeId="2f948a69-4823-4219-8f41-551e221f2098"/>
+    <listType typeId="21c645df-dd82-47d6-bcc7-056972dc4b31" valueTypeId="14349d5f-0a4d-4f6e-a522-835ffe310ffe"/>
+    <managerType typeId="bedb41d9-e7ba-4eef-b22f-55bc3c605247" valueTypeId="2ad8ae80-789a-4262-9221-2f0cb819d23f"/>
+  </producedTypes>
+  <name>ВКМ_СтатусыОчереди</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сатусы очереди</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78ac13a9-31ea-4137-904a-d6c58055d0d7">
+    <name>КОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>К отправке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35328b87-25fd-4623-86bb-7e04ed588cfd">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3149e6cf-414f-45da-a1d3-1c2b965f64bf">
+  <producedTypes>
+    <objectType typeId="ffe588c2-3309-4bd9-868a-42bd74368d45" valueTypeId="2aca194b-7d31-4add-bfb4-d6eca20991e1"/>
+    <refType typeId="f8fec0f0-65cf-4b6e-af35-d1a422640d2a" valueTypeId="b7eff982-8999-4d31-8b30-8feee052692b"/>
+    <selectionType typeId="2bc9ab3d-fae7-4a78-8568-9268c96ba598" valueTypeId="adaad7e4-7dbb-4cf3-9906-43955fe35b54"/>
+    <listType typeId="589b09e2-b3f7-484d-b73f-6af5929cf9e9" valueTypeId="bc875387-9ea6-446b-ba5a-b997ff66a03e"/>
+    <managerType typeId="4a343d92-9ea2-4de1-90e2-2d217d13c15f" valueTypeId="229346d7-1fb4-4a1a-a4cc-89c53f76bc56"/>
+  </producedTypes>
+  <name>ВКМ_ОчередьОтправки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь отправки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ОчередьОтправки.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ОчередьОтправки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="903fb429-0108-4cd9-a265-8339abb2c0e5">
+    <name>ДокументСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a436a87-58c4-4b32-98d5-8e3f48e465bb">
+    <name>ДатаСозданияЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания задачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="46e996ed-98db-4f1c-bade-6ca295d82dde">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВКМ_СтатусыОчереди</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
