@@ -925,6 +925,10 @@
       <event>OnReadAtServer</event>
       <name>ПриЧтенииНаСервере</name>
     </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

@@ -13,4 +13,6 @@
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Catalog.ВКМ_ОчередьОтправки</content>
+  <content>CommonModule.ВКМ_Телеграм</content>
 </mdclass:Subsystem>
