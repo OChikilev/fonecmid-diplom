@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a044caf-68b9-4cc1-8b99-b04f6e0dbd54">
+  <producedTypes>
+    <refType typeId="d40a2140-82e3-4fcb-ade2-7f44a89bf412" valueTypeId="a5983b06-68fa-4583-9c4b-fb2fb0891bec"/>
+    <listType typeId="b7239a36-5c6c-439a-8a9f-4403b4aa685d" valueTypeId="1839e0fc-415d-4d69-9025-9c109c5cddd7"/>
+    <managerType typeId="d35fdfbe-a8f2-44bf-8eb4-90061917b60c" valueTypeId="2d672128-8108-41e3-8583-5ab3cd6a3a12"/>
+  </producedTypes>
+  <name>ВидыТарифныхСтавок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифных ставок</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e04bf468-9907-4ed6-9686-6a3926079c61">
+    <name>Месячная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месячная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb283ced-a91b-4f9f-a2ca-524de39e0468">
+    <name>Часовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

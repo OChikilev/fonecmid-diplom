@@ -19,10 +19,8 @@
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>CalculationRegister.ДополнительныеНачисления</content>
   <content>InformationRegister.ВКМ_УсловияОплатыСотрудников</content>
-  <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>InformationRegister.ВКМ_ГрафикиРаботы</content>
-  <content>Catalog.ВКМ_ГрафикиРабот</content>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>

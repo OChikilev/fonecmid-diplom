@@ -105,4 +105,59 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_ГрафикиРабот.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="fdbd53ad-054e-474d-b6dd-23b43f88856f">
+    <producedTypes>
+      <objectType typeId="94080d60-b026-4d9c-b5e8-b5c09368266e" valueTypeId="addd219c-8ca8-4fae-a9c0-75eda1c06272"/>
+      <rowType typeId="352adec0-56a9-4e96-947c-e673886e8f86" valueTypeId="45550bfc-954b-433e-8021-4dc55041baa7"/>
+    </producedTypes>
+    <name>ГрафикиПоМесяцам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Графики по месяцам</value>
+    </synonym>
+    <attributes uuid="b1e58fe7-d18f-4347-9885-efdf3ae00647">
+      <name>Месяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c4f53012-096c-420d-bf6d-6b9d7060de36">
+      <name>РабочихДней</name>
+      <synonym>
+        <key>ru</key>
+        <value>Рабочих дней</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="e67fd3a3-612c-42ba-a01f-a539f34cc4ce">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

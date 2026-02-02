@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd86daae-c813-4768-8e29-2a8041699bce">
+  <name>РасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчет зарплаты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВКМ_НачисленияЗарплаты</content>
+  <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
+  <content>Enum.ВидыТарифныхСтавок</content>
+  <content>Catalog.ВКМ_ФизическиеЛица</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.ВКМ_ГрафикиРабот</content>
+</mdclass:Subsystem>
