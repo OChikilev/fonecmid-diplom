@@ -20,10 +20,10 @@
   <chartOfCalculationTypes>ChartOfCalculationTypes.Удержания</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="b2eacaef-88f7-4344-bc39-1d9ef0b04c17">
-    <name>Сумма</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма</value>
+      <value>Результат</value>
     </synonym>
     <type>
       <types>Number</types>

@@ -24,10 +24,10 @@
   <chartOfCalculationTypes>ChartOfCalculationTypes.ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="79d1f355-8268-4102-9c2a-68551233f268">
-    <name>Оклад</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
-      <value>Оклад</value>
+      <value>Результат</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -41,15 +41,15 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="1e8da4e5-5c84-4f9f-aac2-b3e60f78b66e">
-    <name>ПроцентОтРабот</name>
+    <name>РабочихДнейПлан</name>
     <synonym>
       <key>ru</key>
-      <value>Процент от работ</value>
+      <value>Рабочих дней план</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>10</precision>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>

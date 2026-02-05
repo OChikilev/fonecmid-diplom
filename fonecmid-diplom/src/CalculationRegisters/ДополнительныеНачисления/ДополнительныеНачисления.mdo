@@ -37,15 +37,33 @@
     <fullTextSearch>Use</fullTextSearch>
   </resources>
   <resources uuid="2277e67b-5a58-4370-be33-d35022244db7">
-    <name>ПроцентОтРабот</name>
+    <name>Параметр</name>
     <synonym>
       <key>ru</key>
-      <value>Процент от работ</value>
+      <value>Параметр</value>
     </synonym>
     <type>
       <types>Number</types>
       <numberQualifiers>
-        <precision>3</precision>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d32c74d4-c458-41ae-a9a1-1c13c5d533d4">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
       </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
